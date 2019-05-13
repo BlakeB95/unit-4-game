@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+    <div class="jumbotron">
+         <h1 class="text-center">Crystals Collector!</h1>
+         <h3 class="text-center">Click the crystals to add to your random number.</h3>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="card border-primary mb-3 mr-3" style="max-width: 18rem;">
+                <div class="card-body text-primary">
+                    <h5 class="card-title">Target number: </h5>
+                    <p class="card-text random-number"></p>
+                </div>
+            </div>
+            <div class="card border-primary mb-3 mr-3" style="max-width: 18rem;">
+                <div class="card-body text-primary">
+                    <h5 class="card-title">Your score: </h5>
+                    <p class="card-text user-score"></p>
+                </div>
+            </div>
+            <div class="card border-primary mb-3 mr-3" style="max-width: 18rem;">
+                <div class="card-body text-primary">
+                    <h5 class="card-title">Wins: </h5>
+                    <p class="card-text wins"></p>
+                </div>
+            </div>
+            <div class="card border-primary mb-3 mr-3" style="max-width: 18rem;">
+                <div class="card-body text-primary">
+                    <h5 class="card-title">Losses: </h5>
+                    <p class="card-text losses"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card border-primary mb-5 yellow" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/yellow.PNG" height=220px width =190px alt="Card image cap">
+                </div>
+                <div class="card border-primary mb-5 red" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/red.PNG" height=220px width =190px alt="Card image cap">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card border-primary mb-5 green" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/green.PNG" height=220px width =190px Card image cap">
+                </div>
+                <div class="card border-primary mb-5 blue" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/blue.PNG" height=220px width =190px alt="Card image cap">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
